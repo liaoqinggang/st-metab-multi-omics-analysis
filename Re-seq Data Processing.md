@@ -268,4 +268,4 @@ gatk VariantFiltration \
 bcftools filter -i 'TYPE!="indel" || (ABS(STRLEN(REF)-STRLEN(ALT)) <= 5)' ../merge_filtered_indels_final.vcf -Ov -o merge_filtered_5bp_indels_final.vcf
 ```
 
-xw
+
